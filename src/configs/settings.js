@@ -33,7 +33,7 @@ const settings = {
   },
   template: {
     formats: {
-      question: `{{Front}}<link rel="stylesheet" href="${highlightDefault}">\n<link rel="stylesheet" href="${highlightDark}"></link>\n<script>var script;"undefined"==typeof hljs&&((script=document.createElement("script")).src="${prismJs}",script.async=!1,document.head.appendChild(script));\n(script=document.createElement("script")).src="${highlightJs}",script.async=!1,document.head.appendChild(script),document.head.removeChild(script);\n</script>`,
+      question: `{{Front}}<link rel="stylesheet" href="${highlightDefault}">\n<link rel="stylesheet" href="${highlightDark}"></link>\n<script>var script;"undefined"==typeof hljs&&((script=document.createElement("script")).src="${prismJs}",script.async=!1,document.head.appendChild(script));\n(script=document.createElement("script")).src="${highlightJs}",script.async=!1,document.head.appendChild(script),document.head.removeChild(script);\n</script>\n<script type="text/javascript" src="https://www.maths.nottingham.ac.uk/plp/pmadw/LaTeXMathML.js"></script>\n    <script type="text/javascript">window.MathJax = {tex: {inlineMath: [["\$", "\$"], ["\\(", "\\)"]], displayMath: [["\$\$", "\$\$"], ["\\[", "\\]"]]}};</script><script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>`,
       answer  : '{{FrontSide}}\n\n<hr id="answer">\n\n{{Back}}',
       css     : '.card {\n font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;\n font-size: 16px;\n color: black;\nbackground-color: white;\n}\ncode[class*="language-"],pre[class*="language-"] {\n font-size: 0.9em !important;\n}',
     },
