@@ -26,7 +26,7 @@ Node.js v10.0+
 ```bash
 git clone https://github.com/titusse3/mdanki.git
 cd mdanki
-npm i -g
+npm i -g --legacy-peer-deps
 ```
 
 ## Usage
